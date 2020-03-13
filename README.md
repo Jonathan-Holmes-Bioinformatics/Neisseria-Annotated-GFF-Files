@@ -35,16 +35,16 @@ Pipeline:
 
   Python3 Custom_Annotation.py PROKKA-Only-Genome.gff With-NEIS-Genome.gff Combined-Genome.gff
   
-  
   The Combined-Genome.gff can now be read into Artemis with each gene/CDS named with the PROKKA functional annotation 
   with the appropriate NEIS number annotated within the notes section of each gene/CDS where possible.
   
   
-  Method.
   
-  The annotation of the genome into a gff file generates open reading frames with their: Location and name.
-  If the locaitonal coordinates are conserved between the default Prokka and NEIS annotated Prokka file then the
-  two CDS are assumed to reference the same gene. This information is then combined into a new annotation line. 
+Method.
+  
+The annotation of the genome into a gff file generates open reading frames with their: Location and name.
+If the locaitonal coordinates are conserved between the default Prokka and NEIS annotated Prokka file then the
+two CDS are assumed to reference the same gene. This information is then combined into a new annotation line. 
   
   
   
